@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="EnglishCommandSet">
+    <CommandPrefix>Learning</CommandPrefix>
+    <Example>Speak Something</Example>
+    <Command Name="voicecommand">
+      <Example>Voice command</Example>
+      <ListenFor>{name}</ListenFor>
+      <ListenFor>hello</ListenFor>
+      <Feedback>Redirecting....</Feedback>
+      <Navigate/>
+    </Command>
+    <PhraseTopic Label="name" Scenario ="Search">
+      <Subject>Person Names</Subject>
+    </PhraseTopic>
+  </CommandSet>
+</VoiceCommands>

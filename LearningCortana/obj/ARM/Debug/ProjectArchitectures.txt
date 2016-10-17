@@ -1,0 +1,1 @@
+D:\LearningCortana\LearningCortana\LearningCortana.csproj;arm
